@@ -1,56 +1,85 @@
-# Welcome to your Expo app 👋
+﻿# AutoRent - Car Rental Mobile Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+AutoRent is a car rental mobile application developed as a university AppStorm project.
 
-## Get started
+The application allows users to explore cars, search by category, view car details, save favorites, compare vehicles, and create rental bookings.
 
-1. Install dependencies
+## Technologies
 
-   ```bash
-   npm install
-   ```
+- React Native
+- Expo
+- Expo Router
+- JavaScript
+- TypeScript
+- React Hooks
+- AsyncStorage
 
-2. Start the app
+## Main Features
 
-   ```bash
-   npx expo start
-   ```
+1. Splash Screen
+2. Onboarding Screen
+3. Login
+4. Registration
+5. Forgot Password
+6. Home Screen
+7. Car Search
+8. Car Categories
+9. Car Details
+10. Favorites
+11. Booking
+12. Booking Confirmation
+13. My Bookings
+14. Notifications
+15. User Profile
+16. Edit Profile
+17. Settings
+18. Payment Method Selection
+19. Car Comparison
+20. Help and Support
 
-In the output, you'll find options to open the app in a
+## Installation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Clone the repository:
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+    git clone https://github.com/aseidrazakh-cmd/AutoRent.git
 
-## Get a fresh project
+Open the project:
 
-When you're ready, run:
+    cd AutoRent
 
-```bash
-npm run reset-project
-```
+Install dependencies:
 
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
+    npm install
 
-### Other setup steps
+Start Expo:
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+    npx expo start
 
-## Learn more
+Run the web version:
 
-To learn more about developing your project with Expo, look at the following resources:
+    npx expo start --web
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Project Structure
 
-## Join the community
+- screens/ - Application screens
+- components/ - Reusable UI components
+- context/ - Application state management
+- data/ - Sample car data
+- src/app/ - Expo Router navigation
+- assets/ - Images and icons
 
-Join our community of developers creating universal apps.
+## Important Notice
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+AutoRent is an educational demonstration project.
+
+User information and bookings are stored locally using AsyncStorage. Authentication is for demonstration purposes only. No real payments are processed.
+
+## Project Information
+
+University: ALT University
+
+Course: AppStorm
+
+Project: AutoRent
+
+Version: 1.0.0
